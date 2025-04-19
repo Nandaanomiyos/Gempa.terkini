@@ -25,23 +25,29 @@ Tools pemantau gempa Indonesia real-time berbasis CLI untuk Termux, mengambil da
 - Koneksi internet
 - Storage 50MB tersedia
 
-## 📥 Instalasi
-### Metode 1: Clone Repository
+## INSTALASI NandaXploit Pemantau Gempa
 ```bash
-# Update package Termux
+# 1. Update sistem Termux
 pkg update -y && pkg upgrade -y
 
-# Install dependensi
+# 2. Install dependensi yang diperlukan
 pkg install -y git curl jq
 
-# Clone repo
+# 3. Clone repository
 git clone https://github.com/Nandaanomiyos/Gempa.terkini.git
 
-# Masuk direktori
+# 4. Masuk ke direktori
 cd Gempa.terkini
 
-# Beri permission
+# 5. Beri permission executable
 chmod +x gempa.sh
 
-# Jalankan aplikasi
+# 6. Jalankan aplikasi
 ./gempa.sh
+```
+
+# CATATAN PENTING:
+# - Pastikan koneksi internet stabil
+# - Jika error "./gemp.sh not found", gunakan:
+#   bash gempa.sh  (bukan ./gemp.sh)
+
